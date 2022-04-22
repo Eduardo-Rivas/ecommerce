@@ -50,8 +50,8 @@ class Page
 
 	public function setTpl($tplname, $data = array(), $returnHTML = false)
 	{
+		//--Vá a la Case Modal setData--//
 		$this->setData($data);
-
 		return $this->tpl->draw($tplname, $returnHTML);
 	}
 
